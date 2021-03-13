@@ -1,4 +1,4 @@
-from flask import Flask, render_template,url_for
+from flask import Flask, render_template,url_for,jsonify
 import pandas as pd
 import numpy as np
 import spacy
@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 from io import BytesIO
 import en_core_web_md
 import base64
+import json 
 
 nlp = en_core_web_md.load()
 
