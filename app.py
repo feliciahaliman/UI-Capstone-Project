@@ -1,11 +1,9 @@
-from flask import Flask, render_template,url_for,request, jsonify
-import re
+from flask import Flask, render_template,url_for
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from io import BytesIO
 import base64
-import json 
 
 app = Flask(__name__)
 
